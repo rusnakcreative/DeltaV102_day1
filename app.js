@@ -28,10 +28,23 @@ function day1AM() {
 
     console.log(firstName + " is " + age + " years old.")
     console.log(firstName + " is " + feet + " foot " + inches + " inches tall.")
+
+    print("Hello World!");
+
+    far2Cels(212);
 }
 
 // To call the functoin: 
 day1AM();
+
+// Converts Fahrenheit to Celsius
+function far2Cels(temp) {
+    return((temp - 32) * (5 / 9));
+}
+
+function print(input) {
+    console.log(input);
+}
 
 // This also makes a function
 // var day1AM = function() {
