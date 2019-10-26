@@ -38,6 +38,7 @@ function day1AM() {
 function day1PM() {
 age = 35
 canIGoToTheCasino(age, "IA")
+
 }
 // To call the functoin: 
 day1AM();
@@ -54,6 +55,16 @@ function canIGoToTheCasino(age, location) {
 
 function print(input) {
     console.log(input);
+}
+
+function whatShouldIWear(temp) {
+    if(temp >= 75) {
+        return ("Swim Wear");
+    }else if(temp < 75 && temp >= 45) {
+        return ("Jacket or hoodie")
+    } else if(temp < 25) {
+        return ("Don't go outside!")
+    }
 }
 
 // This also makes a function
