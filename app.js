@@ -34,12 +34,22 @@ function day1AM() {
     far2Cels(212);
 }
 
+
+function day1PM() {
+age = 35
+canIGoToTheCasino(age, "IA")
+}
 // To call the functoin: 
 day1AM();
+day1PM();
 
 // Converts Fahrenheit to Celsius
 function far2Cels(temp) {
     return((temp - 32) * (5 / 9));
+}
+
+function canIGoToTheCasino(age, location) {
+    return age >= 21 && location == "IA" || age>= 18 && location == "MN";
 }
 
 function print(input) {
