@@ -15,5 +15,20 @@ function draw() {
     fill(255,0,0)
     circle(500,100,20)
 
-
 }
+
+function day1AM() {
+    console.log("Hello World");
+    var firstName = "Mike";
+    var age = 34;
+    var heightInches = 75;
+    
+}
+
+// To call the functoin: 
+day1AM();
+
+// This also makes a function
+// var day1AM = function() {
+//
+// }
